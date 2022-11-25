@@ -2,9 +2,9 @@ import { Component } from "react";
 
 class Resume extends Component{
     render(){
-        const {name} = this.props;
+        const {name,lastname} = this.props;
         return <div>
-            <h3>This is a class compoenet for props demo to render " {name} " </h3>
+            <h3>from class component , destructring props" {name} {lastname} " </h3>
         </div>
     }
 }

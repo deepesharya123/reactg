@@ -1,6 +1,7 @@
 function Profile(props){
     console.log(props);
     const {name, lastname} = props;
+    
     return <div>
         { 
            name==="Henry" ? 
