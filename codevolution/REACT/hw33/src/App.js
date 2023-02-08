@@ -16,6 +16,7 @@ function App() {
       <UserProvider value="Deepesh ">
         <ComponentC />
       </UserProvider>
+
       {/* <Counter
         render={(count, incrementCount) => (
           <ClickCounterTwo count={count} incrementCount={incrementCount} />
