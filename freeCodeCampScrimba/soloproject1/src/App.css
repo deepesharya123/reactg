@@ -1,0 +1,319 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.photo {
+  background-image: url("../public//Deepesh_Pic.jpeg");
+  width: 317px;
+  height: 317px;
+  background-size: 317px 317px;
+  margin-left: 116px;
+  margin-top: 44px;
+}
+
+.main {
+  position: absolute;
+  width: 550px;
+  height: 868px;
+  left: 65px;
+  top: 53px;
+
+  background: #23252c;
+}
+
+.content {
+  /* Rectangle 91 */
+
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+
+  background: #1a1b21;
+}
+
+.name {
+  position: absolute;
+  height: 25.81px;
+  left: 16px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ffffff;
+  width: 278.06px;
+}
+
+.skill {
+  position: absolute;
+
+  height: 14.19px;
+  left: 54px;
+  top: 35px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #f3bf99;
+}
+
+.personal_website {
+  position: absolute;
+  height: 16px;
+  left: 30px;
+  top: 51px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  text-align: center;
+
+  color: #f5f5f5;
+}
+
+.email {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 151px;
+  top: 455px;
+
+  /* white */
+
+  background: #ffffff;
+  /* gray/300 */
+
+  border: 1px solid #d1d5db;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.linkedin {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 283px;
+  top: 455px;
+
+  background: #5093e2;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.linkedin-text {
+  /* Text */
+
+  width: 57px;
+  height: 16px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.email-text {
+  /* Text */
+
+  width: 36px;
+  height: 16px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  /* gray/700 */
+
+  color: #374151;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.about {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 152px;
+  top: 490px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #f5f5f5;
+}
+
+.about-data {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 152px;
+  top: 514px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+  color: #dcdcdc;
+}
+
+.interests {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 152px;
+  top: 590px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #f5f5f5;
+}
+
+.interests-data {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 152px;
+  top: 613px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+  color: #dcdcdc;
+}
+
+.footer {
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.twitter {
+  background-image: url("../public//TwitterIcon.png");
+  box-sizing: border-box;
+  position: absolute;
+  left: 34.36%;
+  right: 61.09%;
+  top: 89.75%;
+  bottom: 7.37%;
+
+  background: #918e9b;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.facebook {
+  position: absolute;
+  left: 43.27%;
+  right: 52.18%;
+  top: 89.75%;
+  bottom: 7.37%;
+
+  background: #918e9b;
+}
