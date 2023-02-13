@@ -11,29 +11,34 @@ const cardData = [
     ratingByPeople: 6,
     title: "Life lessons with Katie Zaferes",
     price: 136,
+    country: "USA",
+    openSpots: 0,
   },
   {
     maxRating: 5.0,
     ratingByPeople: 30,
     title: "Learn wedding photography",
     price: 125,
+    country: "USA",
   },
   {
     maxRating: 4.8,
     ratingByPeople: 2,
     title: "Group Mountain Biking",
     price: 50,
+    country: "USA",
   },
 ];
 
 function Main() {
+  let ind = 0;
+
   return (
     <div>
       <Navbar />
       <Group></Group>
       <Info />
       <Card />
-
       <CardInfo data={cardData[0]} id={0} />
       <CardInfo data={cardData[1]} id={1} />
       <CardInfo data={cardData[2]} id={2} />
