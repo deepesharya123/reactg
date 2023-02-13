@@ -10,6 +10,9 @@ function Card(props) {
       <p className={"country" + id}> {location}</p>
       <p className={"map" + id}>View on Google Maps</p>
       <p className={"title" + id}>{title}</p>
+      <p className={"date" + id}>
+        {startDate} - {endDate}
+      </p>
       <p className={"desc" + id}>{description}</p>
     </div>
   );

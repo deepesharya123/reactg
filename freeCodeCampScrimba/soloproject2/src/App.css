@@ -292,9 +292,56 @@
   color: #2b283a;
 }
 
+.date0 {
+  position: absolute;
+  width: 319px;
+  height: 11px;
+  left: 184px;
+  top: 183px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2b283a;
+}
+
+.date1 {
+  position: absolute;
+  width: 319px;
+  height: 11px;
+  left: 184px;
+  top: 380px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2b283a;
+}
+.date2 {
+  position: absolute;
+  width: 319px;
+  height: 11px;
+  left: 184px;
+  top: 591px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2b283a;
+}
+
 .desc0 {
   position: absolute;
-  width: 326px;
+  width: 676px;
   height: 45px;
   left: 184px;
   top: 203px;
@@ -302,16 +349,15 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 10.24px;
-  line-height: 150%;
-  /* or 15px */
+  font-size: 0.1px;
+  /* line-height: 150%; */
 
   color: #2b283a;
 }
 
 .desc1 {
   position: absolute;
-  width: 326px;
+  width: 676px;
   height: 60px;
   left: 184px;
   top: 400px;
@@ -319,16 +365,15 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 10.24px;
-  line-height: 150%;
-  /* or 15px */
+  font-size: 0.1px;
+  /* line-height: 150%; */
 
   color: #2b283a;
 }
 
 .desc2 {
   position: absolute;
-  width: 326px;
+  width: 676px;
   height: 45px;
   left: 184px;
   top: 611px;
@@ -336,9 +381,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 10.24px;
-  line-height: 150%;
-  /* or 15px */
-
+  font-size: 0.1px;
+  /* line-height: 150%; */
   color: #2b283a;
 }
