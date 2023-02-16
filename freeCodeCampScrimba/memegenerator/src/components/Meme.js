@@ -2,6 +2,11 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 function Meme() {
+  const [formData, setFormData] = useState({
+    setup: "",
+    punchline: "",
+  });
+
   const [memesData, setMemesData] = useState([]);
   const [url, setUrl] = useState("");
   const [meme, setMeme] = useState({
@@ -17,9 +22,8 @@ function Meme() {
       return { ...prevState, randomImage: memesData[ind].url };
     });
   };
-  console.log("url", url);
+
   useEffect(() => {
-    console.log("I am being called");
     axios
       .get("https://api.imgflip.com/get_memes")
       .then((res) => {
@@ -28,6 +32,14 @@ function Meme() {
       .catch((error) => console.log("The issues is ", error));
   }, []);
 
+  const handleChange = (e) => {
+    const nam = e.target.name;
+    const val = e.target.value;
+    setFormData((prevFormData) => {
+      return { ...prevFormData, [e.target.name]: [e.target.value] };
+    });
+  };
+  console.log(formData.setup + " " + formData.punchline);
   return (
     <div className="info">
       <div className="form">
@@ -36,12 +48,16 @@ function Meme() {
           name="setup"
           className="setup"
           placeholder="Top text"
+          onChange={handleChange}
+          value={formData.setup}
         ></input>
         <input
           type="text"
           name="punchline"
           className="punchline"
           placeholder="Bottom text"
+          onChange={handleChange}
+          value={formData.punchline}
         ></input>
         <br></br>
         <button type="submit" className="btn-submit" onClick={handleClick}>
