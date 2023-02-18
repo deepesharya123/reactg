@@ -77,21 +77,4 @@ function Meme() {
 
 export default Meme;
 
-/**width: 230px;
-    height: 35px;
-    margin-left: 36px;
-    margin-right: 17px;
-    border-radius: 5px;
-    border: 1px solid;
-    
-    
-    
-    width: 230px;
-    height: 35px;
-    margin-left: 36px;
-    margin-right: 17px;
-    border-radius: 5px;
-    border: 1px solid;
-    
-    
-    */
+// const [statename ,dispatch] = useReducer(reducer,action);
