@@ -67,14 +67,18 @@
   top: 33.28px;
 }
 .die-main {
-  display: flex;
-  padding-top: 30px;
+  display: grid;
+  padding-top: 88px;
+  justify-content: center;
+  align-items: center;
+  grid-template: auto auto / repeat(5, 1fr);
 }
 .die-container {
   margin-left: 7px;
   top: 15px;
   background-color: red;
-  width: 63px;
+  width: 42px;
+  margin-top: 20px;
   height: 45px;
   border-radius: 10%;
   box-shadow: 0px 2px 2px rgb(0 0 0 / 15%);
@@ -82,19 +86,35 @@
   border-radius: 3.81277px;
   color: #2b283a;
   padding: 0px 5px;
-  /* position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-background: #59E391;
-border-radius: 3.81277px;
- */
 }
 .die-face {
   margin-top: 5px;
   cursor: pointer;
   font-size: 2rem;
+}
+
+.roll-dice {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 185px;
+  bottom: 0%;
+  color: white;
+  background: #5035ff;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  width: 120px;
+  height: 50px;
+}
+
+.die-face-hold {
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 2rem;
+  background-color: #59e391;
+}
+
+.desc {
+  top: 50px;
+  position: absolute;
 }
