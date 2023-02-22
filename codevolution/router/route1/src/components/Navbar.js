@@ -20,6 +20,9 @@ function Navbar() {
           About
         </NavLink>
       </div>
+      <div className="nav-text">
+        <NavLink to="products">Product</NavLink>
+      </div>
     </nav>
   );
 }

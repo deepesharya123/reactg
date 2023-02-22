@@ -13,9 +13,10 @@ code {
 }
 
 .nav-bar {
-  background-color: rgb(236, 163, 163);
+  background-color: rgba(76, 197, 224, 0.644);
   font-size: 2rem;
   display: flex;
+  margin: 10px 20px;
 }
 
 .nav-text {
